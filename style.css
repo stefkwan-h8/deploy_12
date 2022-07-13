@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/1.jpg");
+    background-size: cover;
+}
+
+nav {
+    background-color: navy;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 6px;
+    margin: 3px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: orange;
+    background-color: lightgoldenrodyellow;
+}
+
+nav a:visited {
+    color: orange;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 12px;
+    margin-bottom: 36px;
+}
+
+#home button {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    border-radius: 12px;
+    padding: 12px;
+}
